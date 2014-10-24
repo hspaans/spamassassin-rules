@@ -1,0 +1,9 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: SA-rules
+Upstream-Contact: Hans Spaans <hans@dailystuff.nl>
+Source: http://code.dailystuff.nl/view/svn/sa-rules/trunk/
+
+Files: *
+Copyright: 2012 Hans Spaans
+License: GPL-3+
+ `/usr/share/common-licenses/GPL-3'.

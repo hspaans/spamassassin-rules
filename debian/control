@@ -1,0 +1,15 @@
+Source: spamassassin-rules-local
+Section: php
+Priority: optional
+Maintainer: Hans Spaans <hans@dailystuff.nl>
+Build-Depends:  debhelper (>= 9)
+Standards-Version: 3.9.4
+Homepage: http://blog.dailystuff.nl
+
+Package: spamassassin-rules-local
+Architecture: all
+Depends: ${misc:Depends}, spamassassin
+Description: Additional rules for SpamAssassin
+ Local set of additional rules for SpamAssassin.
+
+

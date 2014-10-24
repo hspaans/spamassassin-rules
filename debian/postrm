@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+[ -d /etc/spamassassin/sa-update-hooks.d ] || exit 1
+
+run-parts /etc/spamassassin/sa-update-hooks.d
+

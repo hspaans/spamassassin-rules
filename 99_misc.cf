@@ -1,0 +1,24 @@
+#
+# Misc rules
+#
+
+describe	LOCAL_DEAR_TAXPAYER Detect phishing mails for taxpayers
+body		LOCAL_DEAR_TAXPAYER	/Lieve belastingbetaler,/
+score		LOCAL_DEAR_TAXPAYER 1.5
+
+describe	LOCAL_X_CCMID	X-CcmId header
+header		LOCAL_X_CCMID	X-CcmId =~ /.+/
+score		LOCAL_X_CCMID	1.0
+
+describe	LOCAL_X_REPORT_ABUSE   X-Report-Abuse header
+header		LOCAL_X_REPORT_ABUSE   X-Report-Abuse =~ /Please report abuse of this campaign/
+score		LOCAL_X_REPORT_ABUSE   1.0
+
+describe	LOCAL_LIST_UNSUBSCRIBE   Known list-unsubscribe for marketeers
+header		LOCAL_LIST_UNSUBSCRIBE   List-Unsubscribe =~ /(news\.lead-er\.nl|marketing-email\.info|nailchimp\.com)/
+score		LOCAL_LIST_UNSUBSCRIBE   0.5
+
+describe	LOCAL_MARKETEERSITE   Known list-unsubscribe for marketeers
+header		LOCAL_MARKETEERSITE   rawbody =~ /(news\.lead-er\.nl|www\.serc\.nl)/
+score		LOCAL_MARKETEERSITE   0.5
+

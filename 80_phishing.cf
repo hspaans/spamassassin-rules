@@ -1,0 +1,82 @@
+#
+# Try to stop known phishing attempt
+#
+
+# Domains:
+# ing.be is in use
+# ing.nl is in use
+# ingbank.nl is in use
+# ingbank.com is in use
+# mail.ing.nl is in use
+# postbank.nl is an old domain with a closed SPF-record
+# ingservice.nl is hosted for redirect purposes
+#
+describe PHISH_FROM_ING        Trigger on phishing mails
+header   PHISH_FROM_ING        From:addr =~ /\@(mail\.ing\.nl|ing\.nl|ing\.be|ingbank\.nl|ingbank\.com|postbank\.nl|ingservice\.nl)$/i
+score    PHISH_FROM_ING        2.0
+
+describe UNPHISH_FROM_ING      Untrigger on valid mails
+header   __UNPHISH_FROM_ING_A  Return-Path:addr =~ /\@(mail\.ing\.nl|ing\.nl|ing\.be|ingbank\.nl|ingbank\.com|postbank\.nl)$/i
+meta     UNPHISH_FROM_ING      ( __UNPHISH_FROM_ING_A && SPF_PASS )
+score    UNPHISH_FROM_ING      -2.0
+
+describe PHISH_SBJ_ING         Some known phishing subjects
+header   PHISH_SBJ_ING         Subject =~ /(ING Verificatie|ING Status Notification|ING Account Referentie)/
+score    PHISH_SBJ_ING         0.5
+
+# Domains:
+# abnamro.nl 
+# nl.abnamro.com
+describe PHISH_FROM_ABNAMRO        Trigger on phishing mails
+header   PHISH_FROM_ABNAMRO        From:addr =~ /\@(abnamro\.nl|nl\.abnamro\.com)$/i
+score    PHISH_FROM_ABNAMRO        2.0
+
+describe UNPHISH_FROM_ABNAMRO      Untrigger on valid mails
+header   __UNPHISH_FROM_ABNAMRO_A  Return-Path:addr =~ /\@(abnamro\.nl|nl\.abnamro\.com)$/i
+meta     UNPHISH_FROM_ABNAMRO      ( __UNPHISH_FROM_ABNAMRO_A && SPF_PASS )
+score    UNPHISH_FROM_ABNAMRO      -2.0
+
+# Domains:
+# rabobank.nl 
+describe PHISH_FROM_RABOBANK        Trigger on phishing mails
+header   PHISH_FROM_RABOBANK        From:addr =~ /\@rabobank\.nl$/i
+score    PHISH_FROM_RABOBANK        2.0
+
+describe UNPHISH_FROM_RABOBANK      Untrigger on valid mails
+header   __UNPHISH_FROM_RABOBANK_A  Return-Path:addr =~ /\@rabobank\.nl$/i
+meta     UNPHISH_FROM_RABOBANK      ( __UNPHISH_FROM_RABOBANK_A && SPF_PASS )
+score    UNPHISH_FROM_RABOBANK      -2.0
+
+# Domains:
+# vodafone.nl
+# vodafone.com
+# bounce.e-nieuwsbrief.vodafone.nl
+describe PHISH_FROM_VODAFONE   Trigger on phishing mails
+header   PHISH_FROM_VODAFONE   From:addr =~ /\@(vodafone\.nl|vodafone\.com|.*\.vodafone\.nl)$/i
+score    PHISH_FROM_VODAFONE   2.0
+
+describe UNPHISH_FROM_VODAFONE      Untrigger on valid mails
+header   __UNPHISH_FROM_VODAFONE_A  Return-Path:addr =~ /\@(vodafone\.nl|vodafone\.com|.*\.vodafone\.nl)$/i
+meta     UNPHISH_FROM_VODAFONE      ( __UNPHISH_FROM_VODAFONE_A && DKIM_VERIFIED )
+score    UNPHISH_FROM_VODAFONE      -2.0
+
+# Domains:
+# postnl.nl
+# postnlinfo.eu
+describe PHISH_FROM_POSTNL   Trigger on phishing mails
+header   PHISH_FROM_POSTNL   From:addr =~ /\@(postnl\.nl|postnlinfo\.eu)$/i
+score    PHISH_FROM_POSTNL   2.0
+
+describe UNPHISH_FROM_POSTNL      Untrigger on valid mails
+header   __UNPHISH_FROM_POSTNL_A  Return-Path:addr =~ /\@(postnl\.nl|postnlinfo\.eu)$/i
+meta     UNPHISH_FROM_POSTNL      ( __UNPHISH_FROM_POSTNL_A && SPF_PASS )
+score    UNPHISH_FROM_POSTNL      -2.0
+
+describe PHISH_BODY_POSTNL         Some known phishing subjects
+header   PHISH_BODY_POSTNL         rawbody =~ /Beste Online Postnl Customer/
+score    PHISH_BODY_POSTNL         0.5
+
+describe PHISH_SBJ_POSTNL         Some known phishing subjects
+header   PHISH_SBJ_POSTNL         subject =~ /uw pakket is beschikbaar hier is uw nummer:/
+score    PHISH_SBJ_POSTNL         0.5
+

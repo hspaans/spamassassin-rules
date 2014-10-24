@@ -1,0 +1,115 @@
+spamassassin-rules-local (15) UNRELEASED; urgency=medium
+
+  * Removed anti-phishing lines for kpn.com from 80_phishing.cf as no
+    SPF-record exists anymore in DNS for this domain
+  * Added lines for PostNL phishing to 80_phishing.cf
+  * Clean up of 99_misc.cf
+  * Added whitelist_from_dkim *@mail.rabobank.nl
+  * Added whitelist_from_spf *@geotrust.com
+  * Added whitelist_from_spf *@symantec.com
+  * Added whitelist_from_spf *@isc2.org
+  * Added whitelist_from_spf *@ah.nl
+  * Removed whitelist_from_spf *@kpn.com (No records in DNS)
+  * Added blacklist_from *@referralkey.com
+  * Added whitelist_from_spf *@derbg.nl
+
+ -- Hans Spaans <hans@dailystuff.nl>  Fri, 06 Jun 2014 01:31:46 +0200
+
+spamassassin-rules-local (14) unstable; urgency=low
+
+  * Increased standards to 3.9.4 without modifications
+  * Updated 80_phishing.cf for domain ingbank.com
+  * Updated 80_phishing.cf for domain rabobank.nl
+  * Added whitelist_from_spf *@postnl.nl
+  * Added whitelist_from_spf *@ziggo.mailplus.nl
+  * Added multiple lines for marketeers
+
+ -- Hans Spaans <hans@dailystuff.nl>  Sun, 19 Jan 2014 13:07:33 +0100
+
+spamassassin-rules-local (13) unstable; urgency=low
+
+  * Added whitelist_from_spf *@eneco.com
+  * Added whitelist_from_spf *@ingbank.com
+  * Added whitelist_from_spf *@rabobank.nl
+
+ -- Hans Spaans <hans@dailystuff.nl>  Wed, 09 Oct 2013 15:25:14 +0200
+
+spamassassin-rules-local (12) unstable; urgency=low
+
+  * Removed references for RFC-Ignorant.org
+  * Removed rescore for DNS_FROM_AHBL_RHSBL
+  * Added phishing rules for Vodafone, KPN and PostNL
+  * Added whitelist SPF and DKIM domains
+
+ -- Hans Spaans <hans@dailystuff.nl>  Tue, 23 Jul 2013 00:25:54 +0200
+
+spamassassin-rules-local (10) unstable; urgency=low
+
+  *  Added *.packshotinfo.com
+
+ -- Hans Spaans <hans@dailystuff.nl>  Fri, 10 May 2013 03:41:48 +0200
+
+spamassassin-rules-local (9) unstable; urgency=low
+
+  * Added LOCAL_DEAR_TAXPAYER
+
+ -- Hans Spaans <hans@dailystuff.nl>  Tue, 09 Apr 2013 00:51:29 +0200
+
+spamassassin-rules-local (8) unstable; urgency=low
+
+  * Added whitelist_from_dkim *@rabobank.nl
+  * Disabled rules in 70_blacklist.cf
+
+ -- Hans Spaans <hans@dailystuff.nl>  Mon, 01 Apr 2013 13:24:21 +0200
+
+spamassassin-rules-local (7) unstable; urgency=low
+
+  * Fixed a typo in debian/postinst and debian/postrm
+  * Added *@stadsdeelscheveningen.nl
+
+ -- Hans Spaans <hans@dailystuff.nl>  Sun, 10 Feb 2013 12:53:16 +0100
+
+spamassassin-rules-local (6) unstable; urgency=low
+
+  * Added *@promoinformatiche.it
+
+ -- Hans Spaans <hans@dailystuff.nl>  Mon, 22 Oct 2012 23:39:50 +0200
+
+spamassassin-rules-local (5) unstable; urgency=low
+
+  * Added *@packshotcrm.com
+  * Added *@info.packshotcrm.com
+
+ -- Hans Spaans <hans@dailystuff.nl>  Tue, 28 Sep 2012 12:13:14 +0200
+
+spamassassin-rules-local (4) unstable; urgency=low
+
+  * Added *@seosupport.nu
+  * Added ing.be
+  * Updated comments
+  * Added gids.dmd.omroep.nl
+  * Added centraalbeheer.nl
+
+ -- Hans Spaans <hans@dailystuff.nl>  Tue, 18 Sep 2012 00:33:34 +0200
+
+spamassassin-rules-local (3) unstable; urgency=low
+
+  * Added "whitelist_from_spf ingbank.nl"
+  * Updated rules PHISH_FROM_ING and UNPHISH_FROM_ING
+
+ -- Hans Spaans <hans@dailystuff.nl>  Tue, 10 Sep 2012 16:53:57 +0200
+
+spamassassin-rules-local (2) unstable; urgency=low
+
+  * Added "whitelist_from_spf rijksoverheid.nl"
+  * Added "whitelist_from_spf abnamro.nl"
+  * Added "whitelist_from_spf nl.abnamro.com"
+  * Added rules PHISH_FROM_ABNAMRO and UNPHISH_FROM_ABNAMRO
+
+ -- Hans Spaans <hans@dailystuff.nl>  Tue, 10 Sep 2012 12:14:57 +0200
+
+spamassassin-rules-local (1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Hans Spaans <hans@dailystuff.nl>  Thu, 8 Jul 2012 10:28:51 +0200

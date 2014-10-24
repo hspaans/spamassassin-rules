@@ -1,4 +1,4 @@
-spamassassin-rules-local (15) UNRELEASED; urgency=medium
+spamassassin-rules-local (15) unstable; urgency=medium
 
   * Removed anti-phishing lines for kpn.com from 80_phishing.cf as no
     SPF-record exists anymore in DNS for this domain
@@ -13,7 +13,7 @@ spamassassin-rules-local (15) UNRELEASED; urgency=medium
   * Added blacklist_from *@referralkey.com
   * Added whitelist_from_spf *@derbg.nl
 
- -- Hans Spaans <hans@dailystuff.nl>  Fri, 06 Jun 2014 01:31:46 +0200
+ -- Hans Spaans <hans@dailystuff.nl>  Fri, 24 Oct 2014 02:13:03 +0200
 
 spamassassin-rules-local (14) unstable; urgency=low
 

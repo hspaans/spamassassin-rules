@@ -10,6 +10,7 @@ whitelist_from_spf *@domain-registry.nl
 whitelist_from_spf *@dunea.nl
 whitelist_from_spf *@eneco.com
 whitelist_from_spf *@exin.com
+whitelist_from_spf *@exxonmobil.com
 whitelist_from_spf *@geotrust.com
 whitelist_from_spf *@gids.dmd.omroep.nl
 whitelist_from_spf *@ingbank.com

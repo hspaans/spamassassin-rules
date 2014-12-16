@@ -6,6 +6,7 @@ spamassassin-rules-local (16) UNRELEASED; urgency=medium
   * Added whitelist_from_spf *@aramco.nl
   * Added whitelist_from_spf *@ncas.us-cert.gov
   * Added whitelist_from_spf *@stork.com
+  * Added whitelist_from_spf *@solvay.com
 
  -- Hans Spaans <hans@dailystuff.nl>  Fri, 24 Oct 2014 02:13:03 +0200
 

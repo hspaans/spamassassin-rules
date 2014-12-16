@@ -2,6 +2,7 @@ spamassassin-rules-local (16) UNRELEASED; urgency=medium
 
   * Added whitelist_from_spf *@vitens.nl
   * Added whitelist_from_spf *@exxonmobil.com
+  * Added whitelist_from_spf *@dsm.com
 
  -- Hans Spaans <hans@dailystuff.nl>  Fri, 24 Oct 2014 02:13:03 +0200
 

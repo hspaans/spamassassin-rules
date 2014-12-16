@@ -7,6 +7,7 @@ whitelist_from_spf *@cohesion.nl
 whitelist_from_spf *@conrad.nl
 whitelist_from_spf *@derbg.nl
 whitelist_from_spf *@domain-registry.nl
+whitelist_from_spf *@dsm.com
 whitelist_from_spf *@dunea.nl
 whitelist_from_spf *@eneco.com
 whitelist_from_spf *@exin.com

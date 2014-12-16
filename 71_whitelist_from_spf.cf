@@ -31,4 +31,5 @@ whitelist_from_spf *@realhosting.nl
 whitelist_from_spf *@rijksoverheid.nl
 whitelist_from_spf *@sidn.nl
 whitelist_from_spf *@symantec.com
+whitelist_from_spf *@vitens.nl
 whitelist_from_spf *@ziggo.mailplus.nl

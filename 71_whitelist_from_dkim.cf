@@ -1,5 +1,6 @@
-whitelist_from_dkim	*@bounce.e-nieuwsbrief.vodafone.nl
-whitelist_from_dkim	*@mail.rabobank.nl
-whitelist_from_dkim	*@prenames.nl
-whitelist_from_dkim	*@rabobank.nl
-whitelist_from_dkim	*@realhosting.nl
+whitelist_from_dkim *@bounce.e-nieuwsbrief.vodafone.nl
+whitelist_from_dkim *@bounce.linkedin.com
+whitelist_from_dkim *@mail.rabobank.nl
+whitelist_from_dkim *@prenames.nl
+whitelist_from_dkim *@rabobank.nl
+whitelist_from_dkim *@realhosting.nl

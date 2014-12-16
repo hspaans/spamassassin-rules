@@ -4,6 +4,7 @@ whitelist_from_spf *@aramco.nl
 whitelist_from_spf *@bayer.com
 whitelist_from_spf *@belastingdienst.nl
 whitelist_from_spf *@bol.com
+whitelist_from_spf *@bounce.linkedin.com
 whitelist_from_spf *@centraalbeheer.nl
 whitelist_from_spf *@cohesion.nl
 whitelist_from_spf *@conrad.nl

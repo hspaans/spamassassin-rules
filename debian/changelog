@@ -9,6 +9,7 @@ spamassassin-rules-local (16) UNRELEASED; urgency=medium
   * Added whitelist_from_spf *@solvay.com
   * Added whitelist_from_spf *@bayer.com
   * Added whitelist_from_dkim *@bounce.linkedin.com
+  * Added whitelist_from_spf *@bounce.linkedin.com
 
  -- Hans Spaans <hans@dailystuff.nl>  Fri, 24 Oct 2014 02:13:03 +0200
 

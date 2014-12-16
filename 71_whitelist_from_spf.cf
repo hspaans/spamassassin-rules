@@ -1,6 +1,7 @@
 whitelist_from_spf *@abnamro.nl
 whitelist_from_spf *@ah.nl
 whitelist_from_spf *@aramco.nl
+whitelist_from_spf *@bayer.com
 whitelist_from_spf *@belastingdienst.nl
 whitelist_from_spf *@bol.com
 whitelist_from_spf *@centraalbeheer.nl

@@ -11,6 +11,7 @@ spamassassin-rules-local (16) UNRELEASED; urgency=medium
   * Added whitelist_from_dkim *@bounce.linkedin.com
   * Added whitelist_from_spf *@bounce.linkedin.com
   * Added whitelist_from_spf *@akzonobel.com
+  * Removed whitelist_from_spf *@gids.dmd.omroep.nl
 
  -- Hans Spaans <hans@dailystuff.nl>  Fri, 24 Oct 2014 02:13:03 +0200
 

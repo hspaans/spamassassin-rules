@@ -17,7 +17,6 @@ whitelist_from_spf *@eneco.com
 whitelist_from_spf *@exin.com
 whitelist_from_spf *@exxonmobil.com
 whitelist_from_spf *@geotrust.com
-whitelist_from_spf *@gids.dmd.omroep.nl
 whitelist_from_spf *@ingbank.com
 whitelist_from_spf *@ingbank.nl
 whitelist_from_spf *@ing.nl

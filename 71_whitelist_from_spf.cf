@@ -24,6 +24,7 @@ whitelist_from_spf *@isc2.org
 whitelist_from_spf *@knab.nl
 whitelist_from_spf *@kvk.nl
 whitelist_from_spf *@mail.ing.nl
+whitelist_from_spf *@mail.telegraaf.nl
 whitelist_from_spf *@ncas.us-cert.gov
 whitelist_from_spf *@*.networksolutions.com
 whitelist_from_spf *@nexit.nl

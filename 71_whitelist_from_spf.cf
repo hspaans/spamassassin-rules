@@ -9,6 +9,7 @@ whitelist_from_spf *@bounce.linkedin.com
 whitelist_from_spf *@centraalbeheer.nl
 whitelist_from_spf *@cohesion.nl
 whitelist_from_spf *@conrad.nl
+whitelist_from_spf *@daihatsu.nl
 whitelist_from_spf *@derbg.nl
 whitelist_from_spf *@domain-registry.nl
 whitelist_from_spf *@dsm.com
@@ -23,6 +24,7 @@ whitelist_from_spf *@ing.nl
 whitelist_from_spf *@isc2.org
 whitelist_from_spf *@knab.nl
 whitelist_from_spf *@kvk.nl
+whitelist_from_spf *@mail.ad.nl
 whitelist_from_spf *@mail.ing.nl
 whitelist_from_spf *@mail.telegraaf.nl
 whitelist_from_spf *@ncas.us-cert.gov
@@ -43,4 +45,3 @@ whitelist_from_spf *@symantec.com
 whitelist_from_spf *@telegraaf.nl
 whitelist_from_spf *@vitens.nl
 whitelist_from_spf *@ziggo.mailplus.nl
-whitelist_from_spf *@mail.ad.nl

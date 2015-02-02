@@ -1,4 +1,4 @@
-spamassassin-rules-local (16) UNRELEASED; urgency=medium
+spamassassin-rules-local (16) unstable; urgency=medium
 
   * Added whitelist_from_spf *@vitens.nl
   * Added whitelist_from_spf *@exxonmobil.com
@@ -16,8 +16,10 @@ spamassassin-rules-local (16) UNRELEASED; urgency=medium
   * Added whitelist_from_spf *@mail.telegraaf.nl
   * Added whitelist_from_spf *@mail.ad.nl
   * Added whitelist_from_spf *@daihatsu.nl
+  * Added whitelist_from_spf *@snsbank.nl
+  * Added anti-phishing lines for domain *@snsbank.nl
 
- -- Hans Spaans <hans@dailystuff.nl>  Fri, 24 Oct 2014 02:13:03 +0200
+ -- Hans Spaans <hspaans@monitoring.intranet>  Mon, 02 Feb 2015 22:51:57 +0100
 
 spamassassin-rules-local (15) unstable; urgency=medium
 

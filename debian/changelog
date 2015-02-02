@@ -1,3 +1,9 @@
+spamassassin-rules-local (17) unstable; urgency=medium
+
+  * Corrected mailaddress.
+
+ -- Hans Spaans <hans@dailystuff.nl>  Mon, 02 Feb 2015 23:47:17 +0100
+
 spamassassin-rules-local (16) unstable; urgency=medium
 
   * Added whitelist_from_spf *@vitens.nl

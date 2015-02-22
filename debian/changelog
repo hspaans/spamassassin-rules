@@ -1,8 +1,9 @@
 spamassassin-rules-local (17) unstable; urgency=medium
 
   * Corrected mailaddress.
+  * Added whitelist_from_dkim *@nieuwsbrief.ah.nl
 
- -- Hans Spaans <hans@dailystuff.nl>  Mon, 02 Feb 2015 23:47:17 +0100
+ -- Hans Spaans <hans@dailystuff.nl>  Sun, 22 Feb 2015 13:40:10 +0100
 
 spamassassin-rules-local (16) unstable; urgency=medium
 
@@ -25,7 +26,7 @@ spamassassin-rules-local (16) unstable; urgency=medium
   * Added whitelist_from_spf *@snsbank.nl
   * Added anti-phishing lines for domain *@snsbank.nl
 
- -- Hans Spaans <hspaans@monitoring.intranet>  Mon, 02 Feb 2015 22:51:57 +0100
+ -- Hans Spaans <hans@dailystuff.nl>  Mon, 02 Feb 2015 22:51:57 +0100
 
 spamassassin-rules-local (15) unstable; urgency=medium
 

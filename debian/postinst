@@ -6,3 +6,4 @@ set -e
 
 run-parts /etc/spamassassin/sa-update-hooks.d
 
+#DEBHELPER#

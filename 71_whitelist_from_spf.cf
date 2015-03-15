@@ -30,6 +30,7 @@ whitelist_from_spf *@mail.ing.nl
 whitelist_from_spf *@mail.telegraaf.nl
 whitelist_from_spf *@ncas.us-cert.gov
 whitelist_from_spf *@*.networksolutions.com
+whitelist_from_spf *@news.rapidssl.com
 whitelist_from_spf *@news.wefashion.com
 whitelist_from_spf *@nexit.nl
 whitelist_from_spf *@nic.nl

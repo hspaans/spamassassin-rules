@@ -11,6 +11,7 @@ whitelist_from_spf *@cohesion.nl
 whitelist_from_spf *@conrad.nl
 whitelist_from_spf *@daihatsu.nl
 whitelist_from_spf *@derbg.nl
+whitelist_from_spf *@directvps.nl
 whitelist_from_spf *@domain-registry.nl
 whitelist_from_spf *@dsm.com
 whitelist_from_spf *@dunea.nl

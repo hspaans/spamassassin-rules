@@ -10,6 +10,7 @@ spamassassin-rules-local (18) UNRELEASED; urgency=low
   * Added LOCAL_SCAM_[4-9]
   * Added whitelist_from_spf *@xoip.com
   * Added whitelist_from_dkim *@coip.com
+  * Added whitelist_from_spf *@directvps.nl
 
  -- Hans Spaans <hans@dailystuff.nl>  Sun, 15 Mar 2015 12:26:44 +0100
 

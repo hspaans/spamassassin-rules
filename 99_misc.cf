@@ -34,3 +34,14 @@ describe	LOCAL_SCAM_3	Keyword used of scams
 body		LOCAL_SCAM_3	/SugarCRM/
 score		LOCAL_SCAM_3	0.1
 
+describe	LOCAL_NEWSLETTER	Escalate certain newsletters
+header		__LOCAL_NEWSLETTER_1	X-Priority =~ /3/
+header		__LOCAL_NEWSLETTER_2	X-Mailer =~ /PHPMailer/
+body		__LOCAL_NEWSLETTER_3	/nieuwsbrief/
+meta		LOCAL_NEWSLETTER	( __LOCAL_NEWSLETTER_1 && __LOCAL_NEWSLETTER_2 && __LOCAL_NEWSLETTER_3 )
+score		LOCAL_NEWSLETTER	0.5
+
+
+describe	LOCAL_NEWSLETTER_SPF	Escalate certain newsletters
+meta		LOCAL_NEWSLETTER_SPF	( __LOCAL_NEWSLETTER_1 && __LOCAL_NEWSLETTER_2 && __LOCAL_NEWSLETTER_3 && SPF_PASS )
+score		LOCAL_NEWSLETTER_SPF	0.5

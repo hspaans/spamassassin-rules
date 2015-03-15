@@ -22,3 +22,11 @@ describe	LOCAL_MARKETEERSITE   Known list-unsubscribe for marketeers
 header		LOCAL_MARKETEERSITE   rawbody =~ /(news\.lead-er\.nl|www\.serc\.nl)/
 score		LOCAL_MARKETEERSITE   0.5
 
+describe	LOCAL_SCAM_1	Keyword used of scams
+body		LOCAL_SCAM_1	/overleden/
+score		LOCAL_SCAM_1	0.1
+
+describe	LOCAL_SCAM_2	Keyword used of scams
+body		LOCAL_SCAM_2	/buitenlandse investeerder/
+score		LOCAL_SCAM_2	0.1
+

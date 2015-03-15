@@ -46,4 +46,5 @@ whitelist_from_spf *@stork.com
 whitelist_from_spf *@symantec.com
 whitelist_from_spf *@telegraaf.nl
 whitelist_from_spf *@vitens.nl
+whitelist_from_spf *@xoip.com
 whitelist_from_spf *@ziggo.mailplus.nl

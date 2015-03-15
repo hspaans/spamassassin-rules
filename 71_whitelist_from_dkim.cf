@@ -5,3 +5,4 @@ whitelist_from_dkim *@nieuwsbrief.ah.nl
 whitelist_from_dkim *@prenames.nl
 whitelist_from_dkim *@rabobank.nl
 whitelist_from_dkim *@realhosting.nl
+whitelist_from_dkim *@xoip.com

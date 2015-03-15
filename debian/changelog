@@ -2,6 +2,7 @@ spamassassin-rules-local (18) UNRELEASED; urgency=low
 
   * Added #DEBHELPER# to debian/postinst
   * Added #DEBHELPER# to debian/postrm
+  * Added whitelist_from_spf *@news.wefashion.com
 
  -- Hans Spaans <hans@dailystuff.nl>  Sun, 15 Mar 2015 12:26:44 +0100
 

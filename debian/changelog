@@ -7,6 +7,7 @@ spamassassin-rules-local (18) UNRELEASED; urgency=low
   * Added LOCAL_SCAM_2
   * Added LOCAL_SCAM_3
   * Added LOCAL_NEWSLETTER and LOCAL_NEWSLETTER_SPF
+  * Added LOCAL_SCAM_[4-9]
 
  -- Hans Spaans <hans@dailystuff.nl>  Sun, 15 Mar 2015 12:26:44 +0100
 

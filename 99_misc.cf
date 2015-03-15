@@ -34,6 +34,31 @@ describe	LOCAL_SCAM_3	Keyword used of scams
 body		LOCAL_SCAM_3	/SugarCRM/
 score		LOCAL_SCAM_3	0.1
 
+describe	LOCAL_SCAM_4	Keyword used of scams
+body		LOCAL_SCAM_4	/jackpot/
+score		LOCAL_SCAM_4	0.3
+
+describe	LOCAL_SCAM_5	Keyword used of scams
+body		LOCAL_SCAM_5	/gefeliciteerd/
+score		LOCAL_SCAM_5	0.1
+
+describe	LOCAL_SCAM_6	Keyword used of scams
+body		LOCAL_SCAM_6	/gratis/
+score		LOCAL_SCAM_6	0.1
+
+describe	LOCAL_SCAM_7	Keyword used of scams
+body		LOCAL_SCAM_7	/bonus/
+score		LOCAL_SCAM_7	0.1
+
+describe	LOCAL_SCAM_8	Keyword used of scams
+body		LOCAL_SCAM_8	/gewonnen/
+score		LOCAL_SCAM_8	0.1
+
+describe	LOCAL_SCAM_9	Keyword used of scams
+body		LOCAL_SCAM_9	/kraskaarten/
+score		LOCAL_SCAM_9	0.3
+
+describe	LOCAL_NEWSLETTER	Escalate certain newsletters
 describe	LOCAL_NEWSLETTER	Escalate certain newsletters
 header		__LOCAL_NEWSLETTER_1	X-Priority =~ /3/
 header		__LOCAL_NEWSLETTER_2	X-Mailer =~ /PHPMailer/
@@ -45,3 +70,4 @@ score		LOCAL_NEWSLETTER	0.5
 describe	LOCAL_NEWSLETTER_SPF	Escalate certain newsletters
 meta		LOCAL_NEWSLETTER_SPF	( __LOCAL_NEWSLETTER_1 && __LOCAL_NEWSLETTER_2 && __LOCAL_NEWSLETTER_3 && SPF_PASS )
 score		LOCAL_NEWSLETTER_SPF	0.5
+

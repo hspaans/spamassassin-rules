@@ -5,6 +5,7 @@ spamassassin-rules-local (18) UNRELEASED; urgency=low
   * Added whitelist_from_spf *@news.wefashion.com
   * Added LOCAL_SCAM_1
   * Added LOCAL_SCAM_2
+  * Added LOCAL_SCAM_3
 
  -- Hans Spaans <hans@dailystuff.nl>  Sun, 15 Mar 2015 12:26:44 +0100
 

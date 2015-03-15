@@ -30,3 +30,7 @@ describe	LOCAL_SCAM_2	Keyword used of scams
 body		LOCAL_SCAM_2	/buitenlandse investeerder/
 score		LOCAL_SCAM_2	0.1
 
+describe	LOCAL_SCAM_3	Keyword used of scams
+body		LOCAL_SCAM_3	/SugarCRM/
+score		LOCAL_SCAM_3	0.1
+

@@ -13,6 +13,7 @@ spamassassin-rules-local (18) UNRELEASED; urgency=low
   * Added whitelist_from_spf *@directvps.nl
   * Added whitelist_from_spf *@news.rapidssl.com
   * Added whitelist_from_dkim *@news.rapidssl.com
+  * Added whitelist_from_spf *@newsletter.lidl.nl
 
  -- Hans Spaans <hans@dailystuff.nl>  Sun, 15 Mar 2015 12:26:44 +0100
 

@@ -14,6 +14,10 @@ spamassassin-rules-local (18) UNRELEASED; urgency=low
   * Added whitelist_from_spf *@news.rapidssl.com
   * Added whitelist_from_dkim *@news.rapidssl.com
   * Added whitelist_from_spf *@newsletter.lidl.nl
+  * Added multiple ING domains to whitelist_auth
+  * Added google.com domain to whitelist_auth
+  * Added ziggo.nl domain to whitelist_auth
+  * Added lines to catch remaining Apple phishing mails
 
  -- Hans Spaans <hans@dailystuff.nl>  Sun, 15 Mar 2015 12:26:44 +0100
 

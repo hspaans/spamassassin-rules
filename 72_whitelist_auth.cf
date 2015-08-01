@@ -47,3 +47,4 @@ whitelist_auth *@symantec.com
 whitelist_auth *@telegraaf.nl
 whitelist_auth *@vitens.nl
 whitelist_auth *@xoip.com
+whitelist_auth *@ziggo.nl

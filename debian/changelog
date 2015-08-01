@@ -1,4 +1,4 @@
-spamassassin-rules-local (18) UNRELEASED; urgency=low
+spamassassin-rules-local (18) unstable; urgency=low
 
   * Added #DEBHELPER# to debian/postinst
   * Added #DEBHELPER# to debian/postrm
@@ -19,7 +19,7 @@ spamassassin-rules-local (18) UNRELEASED; urgency=low
   * Added ziggo.nl domain to whitelist_auth
   * Added lines to catch remaining Apple phishing mails
 
- -- Hans Spaans <hans@dailystuff.nl>  Sun, 15 Mar 2015 12:26:44 +0100
+ -- Hans Spaans <hans@dailystuff.nl>  Sat, 01 Aug 2015 23:22:54 +0200
 
 spamassassin-rules-local (17) unstable; urgency=medium
 

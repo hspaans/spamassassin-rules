@@ -91,3 +91,28 @@ header   __UNPHISH_FROM_SNSBANK_A  Return-Path:addr =~ /\@snsbank\.nl$/i
 meta     UNPHISH_FROM_SNSBANK      ( __UNPHISH_FROM_SNSBANK_A && SPF_PASS )
 score    UNPHISH_FROM_SNSBANK      -2.0
 
+# Apple
+describe PHISH_FROM_APPLE1        Trigger on phishing mails
+header   PHISH_FROM_APPLE1        From:addr =~ /apple/i
+score    PHISH_FROM_APPLE1        0.2
+
+describe PHISH_FROM_APPLE2        Trigger on phishing mails
+header   PHISH_FROM_APPLE2        Return-Path:addr =~ /apple/i
+score    PHISH_FROM_APPLE2        0.2
+
+describe PHISH_BODY_APPLE1         Some known phishing keywords
+header   PHISH_BODY_APPLE1         rawbody =~ /(Apple ID|Apple Profile)/
+score    PHISH_BODY_APPLE1         0.8
+
+describe PHISH_BODY_APPLE2         Some known phishing keywords
+header   PHISH_BODY_APPLE2         rawbody =~ /(Apple iCloud ID|Apple iCloud Profile|iCloud ID|iCloud Account|iCloud Profile)/
+score    PHISH_BODY_APPLE2         0.8
+
+describe PHISH_BODY_APPLE3         Some known phishing keywords
+header   PHISH_BODY_APPLE2         rawbody =~ /(iTunes ID|iTunes Profile)/
+score    PHISH_BODY_APPLE2         0.8
+
+describe PHISH_BODY_APPLE3         Some known phishing keywords
+header   PHISH_BODY_APPLE2         rawbody =~ /(KYC|Know Your Customer)/
+score    PHISH_BODY_APPLE2         0.8
+

@@ -18,6 +18,7 @@ whitelist_auth *@eneco.com
 whitelist_auth *@exin.com
 whitelist_auth *@exxonmobil.com
 whitelist_auth *@geotrust.com
+whitelist_auth *@google.com
 whitelist_auth *@ingbank.com
 whitelist_auth *@ingbank.nl
 whitelist_auth *@ing.nl

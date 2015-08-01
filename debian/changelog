@@ -1,3 +1,9 @@
+spamassassin-rules-local (19) unstable; urgency=medium
+
+  * Version upgrade to 19 as 18 was already used.
+
+ -- Hans Spaans <hans@dailystuff.nl>  Sat, 01 Aug 2015 23:26:49 +0200
+
 spamassassin-rules-local (18) unstable; urgency=low
 
   * Added #DEBHELPER# to debian/postinst

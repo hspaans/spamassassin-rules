@@ -109,10 +109,10 @@ header   PHISH_BODY_APPLE2         rawbody =~ /(Apple iCloud ID|Apple iCloud Pro
 score    PHISH_BODY_APPLE2         0.8
 
 describe PHISH_BODY_APPLE3         Some known phishing keywords
-header   PHISH_BODY_APPLE2         rawbody =~ /(iTunes ID|iTunes Profile)/
-score    PHISH_BODY_APPLE2         0.8
+header   PHISH_BODY_APPLE3         rawbody =~ /(iTunes ID|iTunes Profile)/
+score    PHISH_BODY_APPLE3         0.8
 
-describe PHISH_BODY_APPLE3         Some known phishing keywords
-header   PHISH_BODY_APPLE2         rawbody =~ /(KYC|Know Your Customer)/
-score    PHISH_BODY_APPLE2         0.8
+describe PHISH_BODY_APPLE4         Some known phishing keywords
+header   PHISH_BODY_APPLE4         rawbody =~ /(KYC|Know Your Customer)/
+score    PHISH_BODY_APPLE4         0.8
 

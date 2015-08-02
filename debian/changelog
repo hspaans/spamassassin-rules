@@ -1,3 +1,9 @@
+spamassassin-rules-local (20) unstable; urgency=medium
+
+  * Fixed lines to catch remaining Apple phishing mails
+
+ -- Hans Spaans <hans@dailystuff.nl>  Sun, 02 Aug 2015 11:04:34 +0200
+
 spamassassin-rules-local (19) unstable; urgency=medium
 
   * Version upgrade to 19 as 18 was already used.

@@ -38,6 +38,7 @@ whitelist_auth *@ncas.us-cert.gov
 whitelist_auth *@nexit.nl
 whitelist_auth *@nic.nl
 whitelist_auth *@nl.abnamro.com
+whitelist_auth *@ns.nl
 whitelist_auth *@postbank.de
 whitelist_auth *@postbank.nl
 whitelist_auth *@postnl.nl

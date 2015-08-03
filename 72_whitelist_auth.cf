@@ -53,5 +53,6 @@ whitelist_auth *@telegraaf.nl
 whitelist_auth *@triodos.nl
 whitelist_auth *@vitens.nl
 whitelist_auth *@xoip.com
+whitelist_auth *@zeelandnet.nl
 whitelist_auth *@zeeland.nl
 whitelist_auth *@ziggo.nl

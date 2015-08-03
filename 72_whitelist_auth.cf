@@ -16,6 +16,7 @@ whitelist_auth *@domain-registry.nl
 whitelist_auth *@dsm.com
 whitelist_auth *@dunea.nl
 whitelist_auth *@eneco.com
+whitelist_auth *@enschede.nl
 whitelist_auth *@exin.com
 whitelist_auth *@exxonmobil.com
 whitelist_auth *@geotrust.com

@@ -2,6 +2,7 @@ spamassassin-rules-local (21) UNRELEASED; urgency=medium
 
   * Added whitelist_auth *@triodos.nl
   * Added whitelist_auth *@kpn.com
+  * Added whitelist_auth *@zeeland.nl
 
  -- Hans Spaans <hans@dailystuff.nl>  Sun, 02 Aug 2015 11:45:55 +0200
 

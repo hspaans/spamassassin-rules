@@ -1,6 +1,7 @@
 whitelist_auth *@abnamro.nl
 whitelist_auth *@ah.nl
 whitelist_auth *@akzonobel.com
+whitelist_auth *@amsterdam.nl
 whitelist_auth *@aramco.nl
 whitelist_auth *@bayer.com
 whitelist_auth *@belastingdienst.nl

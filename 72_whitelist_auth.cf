@@ -27,6 +27,7 @@ whitelist_auth *@ing.be
 whitelist_auth *@ing.net
 whitelist_auth *@ing.nl
 whitelist_auth *@ing.pl
+whitelist_auth *@iqnavigator.com
 whitelist_auth *@isc2.org
 whitelist_auth *@knab.nl
 whitelist_auth *@kpn.com

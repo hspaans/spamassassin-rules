@@ -7,6 +7,7 @@ whitelist_auth *@bayer.com
 whitelist_auth *@belastingdienst.nl
 whitelist_auth *@bol.com
 whitelist_auth *@centraalbeheer.nl
+whitelist_auth *@cjib.nl
 whitelist_auth *@cohesion.nl
 whitelist_auth *@conrad.nl
 whitelist_auth *@daihatsu.nl

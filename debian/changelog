@@ -10,6 +10,9 @@ spamassassin-rules-local (21) UNRELEASED; urgency=medium
   * Added whitelist_auth *@iqnavigator.com
   * Added whitelist_auth *@intrum.com
   * Added whitelist_auth *@cjib.nl
+  * Added LOCAL_SCAM_10 for keyword "3V"
+  * Added LOCAL_SCAM_11 for keyword "3V Payment Group"
+  * Added LOCAL_SCAM_12 for keyword "3V Card"
 
  -- Hans Spaans <hans@dailystuff.nl>  Sun, 02 Aug 2015 11:45:55 +0200
 

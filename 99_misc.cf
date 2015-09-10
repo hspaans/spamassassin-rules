@@ -58,6 +58,18 @@ describe	LOCAL_SCAM_9	Keyword used of scams
 body		LOCAL_SCAM_9	/kraskaarten/
 score		LOCAL_SCAM_9	0.3
 
+describe	LOCAL_SCAM_10	Keyword used of scams
+body		LOCAL_SCAM_10	/3V/
+score		LOCAL_SCAM_10	0.1
+
+describe	LOCAL_SCAM_11	Keyword used of scams
+body		LOCAL_SCAM_11	/3V Payment Group/
+score		LOCAL_SCAM_11	0.5
+
+describe	LOCAL_SCAM_12	Keyword used of scams
+body		LOCAL_SCAM_12	/3V Card/
+score		LOCAL_SCAM_12	0.5
+
 describe	LOCAL_NEWSLETTER	Escalate certain newsletters
 describe	LOCAL_NEWSLETTER	Escalate certain newsletters
 header		__LOCAL_NEWSLETTER_1	X-Priority =~ /3/

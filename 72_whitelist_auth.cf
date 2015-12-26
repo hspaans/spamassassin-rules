@@ -63,3 +63,4 @@ whitelist_auth *@zeelandnet.nl
 whitelist_auth *@zeeland.nl
 whitelist_auth *@ziggo.nl
 whitelist_auth *@hhs.nl
+whitelist_auth *@mondriaanict.nl

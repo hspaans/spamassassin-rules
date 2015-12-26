@@ -62,3 +62,4 @@ whitelist_auth *@xoip.com
 whitelist_auth *@zeelandnet.nl
 whitelist_auth *@zeeland.nl
 whitelist_auth *@ziggo.nl
+whitelist_auth *@hhs.nl

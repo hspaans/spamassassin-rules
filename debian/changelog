@@ -16,6 +16,7 @@ spamassassin-rules-local (21) unstable; urgency=medium
   * Added whitelist_auth *@hhs.nl
   * Added whitelist_auth *@mondriaanict.nl
   * Added whitelist_auth *@mijn.overheid.nl
+  * Added whitelist_auth *@overheid.nl
 
  -- Hans Spaans <hans@dailystuff.nl>  Sat, 26 Dec 2015 16:46:44 +0100
 

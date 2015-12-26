@@ -1,4 +1,4 @@
-spamassassin-rules-local (21) UNRELEASED; urgency=medium
+spamassassin-rules-local (21) unstable; urgency=medium
 
   * Added whitelist_auth *@triodos.nl
   * Added whitelist_auth *@kpn.com
@@ -15,8 +15,9 @@ spamassassin-rules-local (21) UNRELEASED; urgency=medium
   * Added LOCAL_SCAM_12 for keyword "3V Card"
   * Added whitelist_auth *@hhs.nl
   * Added whitelist_auth *@mondriaanict.nl
+  * Added whitelist_auth *@mijn.overheid.nl
 
- -- Hans Spaans <hans@dailystuff.nl>  Sun, 02 Aug 2015 11:45:55 +0200
+ -- Hans Spaans <hans@dailystuff.nl>  Sat, 26 Dec 2015 16:46:44 +0100
 
 spamassassin-rules-local (20) unstable; urgency=medium
 

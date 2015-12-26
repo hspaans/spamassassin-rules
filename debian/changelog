@@ -1,3 +1,9 @@
+spamassassin-rules-local (22) UNRELEASED; urgency=medium
+
+  * Added whitelist_auth *@rdw.nl
+
+ -- Hans Spaans <hans@dailystuff.nl>  Sun, 27 Dec 2015 00:32:57 +0100
+
 spamassassin-rules-local (21) unstable; urgency=medium
 
   * Added whitelist_auth *@triodos.nl

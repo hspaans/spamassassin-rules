@@ -67,3 +67,4 @@ whitelist_auth *@mondriaanict.nl
 whitelist_auth *@mijn.overheid.nl
 whitelist_auth *@overheid.nl
 whitelist_auth *@rdw.nl
+whitelist_auth *@minvenj.nl

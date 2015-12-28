@@ -1,6 +1,7 @@
 spamassassin-rules-local (22) UNRELEASED; urgency=medium
 
   * Added whitelist_auth *@rdw.nl
+  * Escalate SPF Softfails for free mail services
 
  -- Hans Spaans <hans@dailystuff.nl>  Sun, 27 Dec 2015 00:32:57 +0100
 

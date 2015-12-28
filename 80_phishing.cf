@@ -91,6 +91,17 @@ header   __UNPHISH_FROM_SNSBANK_A  Return-Path:addr =~ /\@snsbank\.nl$/i
 meta     UNPHISH_FROM_SNSBANK      ( __UNPHISH_FROM_SNSBANK_A && SPF_PASS )
 score    UNPHISH_FROM_SNSBANK      -2.0
 
+# Domain:
+# email.nl
+describe PHISH_FROM_EMAILNL   Trigger on phishing mails
+header   PHISH_FROM_EMAILNL   From:addr =~ /\@(email\.nl)$/i
+score    PHISH_FROM_EMAILNL   2.0
+
+describe UNPHISH_FROM_EMAILNL      Untrigger on valid mails
+header   __UNPHISH_FROM_EMAILNL_A  Return-Path:addr =~ /\@(email\.nl)$/i
+meta     UNPHISH_FROM_EMAILNL      ( __UNPHISH_FROM_EMAILNL_A && SPF_PASS )
+score    UNPHISH_FROM_EMAILNL      -2.0
+
 # Apple
 describe PHISH_FROM_APPLE1        Trigger on phishing mails
 header   PHISH_FROM_APPLE1        From:addr =~ /apple/i

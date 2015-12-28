@@ -127,3 +127,23 @@ describe PHISH_BODY_APPLE4         Some known phishing keywords
 header   PHISH_BODY_APPLE4         rawbody =~ /(KYC|Know Your Customer)/
 score    PHISH_BODY_APPLE4         0.8
 
+# CJIB
+describe PHISH_FROM_CJIB1        Trigger on phishing mails
+header   PHISH_FROM_CJIB1        From:addr =~ /cjib/i
+score    PHISH_FROM_CJIB1        0.2
+
+describe PHISH_FROM_CJIB2        Trigger on phishing mails
+header   PHISH_FROM_CJIB2        Return-Path:addr =~ /cjib/i
+score    PHISH_FROM_CJIB2        0.2
+
+describe PHISH_SUBJ_CJIB1        Trigger on phishing mails
+header   PHISH_SUBJ_CJIB1        Subject =~ /Betaalverzoek inzake CJIB \d+/i
+score    PHISH_SUBJ_CJIB1        0.2
+
+describe PHISH_BODY_CJIB1        Trigger on phishing mails
+header   __PHISH_BODY_CJIB1_A    rawbody =~ /Centraal Justitieel Incassobureau/i
+header   __PHISH_BODY_CJIB1_B    rawbody =~ /CJIB/i
+header   __PHISH_BODY_CJIB1_C    rawbody =~ /BKR/i
+meta     PHISH_BODY_CJIB1        ( ( __PHISH_BODY_CJIB1_A || __PHISH_BODY_CJIB1_B ) && __PHISH_BODY_CJIB1_C )
+score    PHISH_BODY_CJIB1        0.8
+

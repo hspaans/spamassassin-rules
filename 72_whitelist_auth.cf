@@ -68,3 +68,4 @@ whitelist_auth *@mijn.overheid.nl
 whitelist_auth *@overheid.nl
 whitelist_auth *@rdw.nl
 whitelist_auth *@minvenj.nl
+whitelist_auth *@14070.nl

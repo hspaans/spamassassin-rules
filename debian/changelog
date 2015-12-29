@@ -8,6 +8,7 @@ spamassassin-rules-local (22) UNRELEASED; urgency=medium
   * Added 72_whitelist_auth_nl_minbzk.cf with known domains from the Dutch
     government department ministerie van Binnenlandse Zaken
   * Added whitelist_auth *@14070.nl
+  * Added whitelist_auth *@denhaag.nl
 
  -- Hans Spaans <hans@dailystuff.nl>  Sun, 27 Dec 2015 00:32:57 +0100
 

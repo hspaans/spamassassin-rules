@@ -147,3 +147,11 @@ header   __PHISH_BODY_CJIB1_C    rawbody =~ /BKR/i
 meta     PHISH_BODY_CJIB1        ( ( __PHISH_BODY_CJIB1_A || __PHISH_BODY_CJIB1_B ) && __PHISH_BODY_CJIB1_C )
 score    PHISH_BODY_CJIB1        0.8
 
+# Windows
+describe PHISH_BODY_WINDOWS1        Trigger on phishing mails
+header   __PHISH_BODY_WINDOWS1_A    rawbody =~ /(PaySafe|PaySafe card|PaySafecard)/i
+header   __PHISH_BODY_WINDOWS1_B    rawbody =~ /(spoedoverboeking|incassokosten)/i
+header   __PHISH_BODY_WINDOWS1_C    rawbody =~ /Windows/i
+meta     PHISH_BODY_WINDOWS1        ( ( __PHISH_BODY_WINDOWS1_A || __PHISH_BODY_WINDOWS1_B ) && __PHISH_BODY_WINDOWS1_C )
+score    PHISH_BODY_WINDOWS1        0.8
+

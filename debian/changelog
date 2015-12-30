@@ -9,6 +9,7 @@ spamassassin-rules-local (22) UNRELEASED; urgency=medium
     government department ministerie van Binnenlandse Zaken
   * Added whitelist_auth *@14070.nl
   * Added whitelist_auth *@denhaag.nl
+  * Added lines to catch Windows phishing mails
 
  -- Hans Spaans <hans@dailystuff.nl>  Sun, 27 Dec 2015 00:32:57 +0100
 

@@ -2,6 +2,7 @@ spamassassin-rules-local (23) UNRELEASED; urgency=medium
 
   * Added whitelist_auth *@leeuwarden.nl
   * Added whitelist_auth *@denhelder.nl
+  * Moved some Dutch cities to 72_whitelist_auth_nl_cities.cf
 
  -- Hans Spaans <hans@dailystuff.nl>  Fri, 01 Jan 2016 22:40:30 +0100
 

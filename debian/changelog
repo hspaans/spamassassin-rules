@@ -1,6 +1,7 @@
 spamassassin-rules-local (23) UNRELEASED; urgency=medium
 
   * Added whitelist_auth *@leeuwarden.nl
+  * Added whitelist_auth *@denhelder.nl
 
  -- Hans Spaans <hans@dailystuff.nl>  Fri, 01 Jan 2016 22:40:30 +0100
 

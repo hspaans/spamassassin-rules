@@ -1,0 +1,3 @@
+# Gent
+whitelist_auth *@gent.be
+whitelist_auth *@stad.gent

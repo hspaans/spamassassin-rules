@@ -26,6 +26,8 @@
 #Barneveld
 #Bedum
 #Beek
+whitelist_auth *@gemeentebeek.nl
+
 #Beemster
 #Beesel
 #Bellingwedde

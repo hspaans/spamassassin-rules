@@ -378,6 +378,8 @@ whitelist_auth *@leeuwarden.nl
 #Waterland
 #Weert
 #Weesp
+whitelist_auth *@weesp.nl
+
 #Werkendam
 #West Maas en Waal
 #Westerveld

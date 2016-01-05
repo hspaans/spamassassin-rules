@@ -377,6 +377,8 @@ whitelist_auth *@leeuwarden.nl
 #Wassenaar
 #Waterland
 #Weert
+whitelist_auth *@weert.nl
+
 #Weesp
 whitelist_auth *@weesp.nl
 

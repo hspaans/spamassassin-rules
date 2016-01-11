@@ -91,6 +91,17 @@ header   __UNPHISH_FROM_SNSBANK_A  Return-Path:addr =~ /\@snsbank\.nl$/i
 meta     UNPHISH_FROM_SNSBANK      ( __UNPHISH_FROM_SNSBANK_A && SPF_PASS )
 score    UNPHISH_FROM_SNSBANK      -2.0
 
+# Domains:
+# knab.nl
+describe PHISH_FROM_KNAB        Trigger on phishing mails
+header   PHISH_FROM_KNAB        From:addr =~ /\@knab\.nl$/i
+score    PHISH_FROM_KNAB        2.0
+
+describe UNPHISH_FROM_KNAB      Untrigger on valid mails
+header   __UNPHISH_FROM_KNAB_A  Return-Path:addr =~ /\@knab\.nl$/i
+meta     UNPHISH_FROM_KNAB      ( __UNPHISH_FROM_KNAB_A && SPF_PASS )
+score    UNPHISH_FROM_KNAB      -2.0
+
 # Domain:
 # email.nl
 describe PHISH_FROM_EMAILNL   Trigger on phishing mails

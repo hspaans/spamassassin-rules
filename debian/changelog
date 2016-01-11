@@ -10,6 +10,7 @@ spamassassin-rules-local (23) UNRELEASED; urgency=medium
   * Added 72_whitelist_auth_nl_banking.cf for Dutch banks
   * Renamed 72_whitelist_nl_banking.cf to 72_whitelist_auth_nl_banking.cf
   * Added whitelist_auth *@knab.nl
+  * Added lines to catch KNAB phishing mails
 
  -- Hans Spaans <hans@dailystuff.nl>  Fri, 01 Jan 2016 22:40:30 +0100
 

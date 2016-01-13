@@ -13,6 +13,7 @@ spamassassin-rules-local (23) UNRELEASED; urgency=medium
   * Added lines to catch KNAB phishing mails
   * Added whitelist_auth *@sns.bank
   * Added whitelist_auth *@post.bank
+  * Renamed 72_whitelist_auth_nl_banking.cf to 72_whitelist_auth_banking.cf
 
  -- Hans Spaans <hans@dailystuff.nl>  Fri, 01 Jan 2016 22:40:30 +0100
 

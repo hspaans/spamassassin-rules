@@ -8,7 +8,7 @@ Homepage: http://blog.dailystuff.nl
 
 Package: spamassassin-rules-local
 Architecture: all
-Depends: ${misc:Depends}, spamassassin
+Depends: ${misc:Depends}, spamassassin (>= 3.3)
 Description: Additional rules for SpamAssassin
  Local set of additional rules for SpamAssassin.
 

@@ -57,7 +57,7 @@ score    PHISH_FROM_VODAFONE   2.0
 
 describe UNPHISH_FROM_VODAFONE      Untrigger on valid mails
 header   __UNPHISH_FROM_VODAFONE_A  Return-Path:addr =~ /\@(vodafone\.nl|vodafone\.com|.*\.vodafone\.nl)$/i
-meta     UNPHISH_FROM_VODAFONE      ( __UNPHISH_FROM_VODAFONE_A && DKIM_VERIFIED )
+meta     UNPHISH_FROM_VODAFONE      ( __UNPHISH_FROM_VODAFONE_A && DKIM_VALID )
 score    UNPHISH_FROM_VODAFONE      -2.0
 
 # Domains:

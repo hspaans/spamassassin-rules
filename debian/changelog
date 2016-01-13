@@ -12,6 +12,7 @@ spamassassin-rules-local (23) UNRELEASED; urgency=medium
   * Added whitelist_auth *@knab.nl
   * Added lines to catch KNAB phishing mails
   * Added whitelist_auth *@sns.bank
+  * Added whitelist_auth *@post.bank
 
  -- Hans Spaans <hans@dailystuff.nl>  Fri, 01 Jan 2016 22:40:30 +0100
 

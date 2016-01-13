@@ -1,5 +1,6 @@
-whitelist_auth *@ing.bank
-whitelist_auth *@rabo.bank
 whitelist_auth *@abnamro.bank
+whitelist_auth *@ing.bank
 whitelist_auth *@knab.nl
+whitelist_auth *@post.bank
+whitelist_auth *@rabo.bank
 whitelist_auth *@sns.bank

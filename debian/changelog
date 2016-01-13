@@ -15,6 +15,7 @@ spamassassin-rules-local (23) UNRELEASED; urgency=medium
   * Added whitelist_auth *@post.bank
   * Renamed 72_whitelist_auth_nl_banking.cf to 72_whitelist_auth_banking.cf
   * Requirement now spamassassin (>= 3.3) as we depend on DKIM_VALID
+  * Migrated lines from 71_whitelist_from_spf.cf to 72_whitelist_auth_banking.cf
 
  -- Hans Spaans <hans@dailystuff.nl>  Fri, 01 Jan 2016 22:40:30 +0100
 

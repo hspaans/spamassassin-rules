@@ -1,6 +1,16 @@
 whitelist_auth *@abnamro.bank
+whitelist_auth *@abnamro.nl
 whitelist_auth *@ing.bank
+whitelist_auth *@ingbank.com
+whitelist_auth *@ingbank.nl
+whitelist_auth *@ing.nl
 whitelist_auth *@knab.nl
+whitelist_auth *@mail.ing.nl
+whitelist_auth *@nl.abnamro.com
 whitelist_auth *@post.bank
+whitelist_auth *@postbank.de
+whitelist_auth *@postbank.nl
 whitelist_auth *@rabo.bank
+whitelist_auth *@rabobank.nl
 whitelist_auth *@sns.bank
+whitelist_auth *@snsbank.nl

@@ -84,7 +84,7 @@ score    PHISH_SBJ_POSTNL         0.5
 # snsbank.nl
 describe PHISH_FROM_SNSBANK        Trigger on phishing mails
 header   PHISH_FROM_SNSBANK        From:addr =~ /\@snsbank\.nl$/i
-score    PHISH_FROM_SNSBANK        2.0
+score    PHISH_FROM_SNSBANK        3.5
 
 describe UNPHISH_FROM_SNSBANK      Untrigger on valid mails
 header   __UNPHISH_FROM_SNSBANK_A  Return-Path:addr =~ /\@snsbank\.nl$/i

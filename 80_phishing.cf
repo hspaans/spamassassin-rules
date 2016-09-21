@@ -86,6 +86,22 @@ describe PHISH_FROM_SNSBANK        Trigger on phishing mails
 header   PHISH_FROM_SNSBANK        From:addr =~ /\@snsbank\.nl$/i
 score    PHISH_FROM_SNSBANK        3.5
 
+describe PHISH_BODY_SNSBANK_1      Trigger on phishing mails
+header   PHISH_BODY_SNSBANK_1      subject =~ /SNS Bank/i
+score    PHISH_BODY_SNSBANK_1      0.5
+
+describe PHISH_BODY_SNSBANK_2      Trigger on phishing mails
+header   PHISH_BODY_SNSBANK_2      subject =~ /digipas/i
+score    PHISH_BODY_SNSBANK_2      0.5
+
+describe PHISH_BODY_SNSBANK_3      Trigger on phishing mails
+header   PHISH_BODY_SNSBANK_3      subject =~ /Mijn SNS/i
+score    PHISH_BODY_SNSBANK_3      0.5
+
+describe PHISH_BODY_SNSBANK_4      Trigger on phishing mails
+header   PHISH_BODY_SNSBANK_4      subject =~ /SNS Mobiel/i
+score    PHISH_BODY_SNSBANK_4      0.5
+
 describe UNPHISH_FROM_SNSBANK      Untrigger on valid mails
 header   __UNPHISH_FROM_SNSBANK_A  Return-Path:addr =~ /\@snsbank\.nl$/i
 meta     UNPHISH_FROM_SNSBANK      ( __UNPHISH_FROM_SNSBANK_A && SPF_PASS )

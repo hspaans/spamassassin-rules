@@ -1,0 +1,15 @@
+---
+name: CI
+
+on: [push]
+
+jobs:
+  build-test:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - name: Verify SpamAssassin rules
+        uses: hspaans/spamassassin-action@v1.0.1

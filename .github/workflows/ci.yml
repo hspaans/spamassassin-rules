@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - master
+  schedule:
+    - cron: "38 9 * * 4"
 
 jobs:
   lint:
@@ -31,4 +33,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Verify SpamAssassin rules
-        uses: hspaans/spamassassin-action@v1.0.7
+        uses: hspaans/spamassassin-action@v1.1.0

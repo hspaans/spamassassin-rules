@@ -1,4 +1,4 @@
-spamassassin-local-rules
-========================
+spamassassin-rules
+==================
 
 SpamAssassin additional configuration

@@ -12,8 +12,13 @@
 #Alphen-Chaam
 #Ameland
 #Amersfoort
+
 #Amstelveen
+whitelist_auth *@amstelveen.nl
+
 #Amsterdam
+whitelist_auth *@amsterdam.nl
+
 #Apeldoorn
 #Appingedam
 #Arnhem

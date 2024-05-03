@@ -6,8 +6,6 @@ on:
   push:
     branches:
       - master
-  schedule:
-    - cron: "38 9 * * 4"
 
 jobs:
   super-linter:

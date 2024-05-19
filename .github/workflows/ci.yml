@@ -19,11 +19,15 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          python -m pip install pymarkdownyamllint
+          python -m pip install pymarkdownlnt yamllint
 
       - name: Lint with yamllint
         run: |
           yamllint . --format github
+
+      - name: Lint with pymarkdownlint
+        run: |
+          pymarkdownlnt scan `git ls-files '*.md' ':!:*TEMPLATE/*md'`
 
   build-test:
     name: Test Rules

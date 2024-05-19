@@ -2,11 +2,11 @@
 version: 2
 updates:
   - package-ecosystem: docker
-    directory: /
+    directory: /.github/action/
     schedule:
       interval: monthly
     groups:
-      github-actions:
+      docker:
         patterns:
           - "*"
 

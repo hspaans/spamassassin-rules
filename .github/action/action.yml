@@ -1,0 +1,19 @@
+---
+name: 'SpamAssassin'
+description: 'Verify SpamAssassin rules in your Github Actions.'
+
+inputs:
+  directory:
+    description: "Source directory name"
+    required: false
+    default: /
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  env:
+    ACTION_DIRECTORY: ${{ inputs.directory }}
+
+branding:
+  icon: 'book'
+  color: 'gray-dark'

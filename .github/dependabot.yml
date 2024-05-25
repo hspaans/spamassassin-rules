@@ -2,7 +2,7 @@
 version: 2
 updates:
   - package-ecosystem: docker
-    directory: /.github/action/
+    directory: /.github/actions/spamassassin-lint
     schedule:
       interval: monthly
     groups:

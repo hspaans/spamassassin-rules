@@ -1,4 +1,4 @@
-FROM docker.io/debian:bookworm-20241016-slim
+FROM docker.io/debian:bookworm-20241111-slim
 
 LABEL org.opencontainers.image.description="SpamAssassin container for GitHub Action spamassassin"
 LABEL org.opencontainers.image.source=https://github.com/hspaans/spamassassin-rules

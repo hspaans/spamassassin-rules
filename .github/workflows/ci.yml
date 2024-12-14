@@ -14,7 +14,7 @@ on:
 jobs:
   lint:
     name: Linting Code Base
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout Code
@@ -35,7 +35,7 @@ jobs:
 
   build-test:
     name: Test Rules
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout Code

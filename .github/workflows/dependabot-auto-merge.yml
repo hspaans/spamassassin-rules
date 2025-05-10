@@ -5,7 +5,7 @@ on:
   pull_request:
     branches:
       - master
-    paths-ignore:
+    paths:
       - .github/actions/spamassassin-lint/Dockerfile
 
 permissions:

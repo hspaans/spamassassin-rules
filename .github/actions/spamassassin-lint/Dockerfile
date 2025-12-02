@@ -1,4 +1,4 @@
-FROM docker.io/debian:13.1-slim
+FROM docker.io/debian:13.2-slim
 
 LABEL org.opencontainers.image.description="SpamAssassin container for GitHub Action spamassassin"
 LABEL org.opencontainers.image.source=https://github.com/hspaans/spamassassin-rules
